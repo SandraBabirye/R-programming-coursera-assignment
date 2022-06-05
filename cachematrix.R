@@ -1,17 +1,17 @@
-## Put comments here that give an overall description of what your
-## functions do
+# AFunction for Making a cache matrix
+  
+# Description for the function and its usage
 
 # set the value of the matrix
-#
+
 # get the value of the matrix
-#
+
 # set the value of the inverse
-#
+
 # get the value of the inverse
 
-# AFunction for Making a cache matrix
 
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) { 
   i <- NULL
   set <- function(y) {
     x <<- y
